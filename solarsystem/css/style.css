@@ -1,0 +1,163 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@keyframes circle{
+	0%{
+      transform: rotate(0deg);
+	}
+    100%{
+     transform: rotate(360deg);
+    }
+
+}
+body {
+	background: black;
+}
+.heading h1{
+	color: pink;
+	font-size: 50px;
+	font-weight: bold;
+	word-spacing: 10px;
+}
+.heading {
+	margin-left: 30%;
+}
+.circle1 {
+    width: 500px;
+    height: 500px;
+    border: 2px solid darkslateblue;
+    border-radius: 50%;
+    position: absolute;
+    animation: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.outer_section {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background: transparent;
+	margin: auto;
+	margin-top: 150px;
+	background: black;
+}
+.dots {
+	width: 15px;
+	height:15px;
+	border: 1px solid darkslateblue;
+	background: lightsalmon;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -7px;
+}
+.circle2 {
+    width: 400px;
+    height: 400px;
+    border: 2px solid darkslateblue;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    animation: circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.dots1 {
+	width: 15px;
+	height:15px;
+	/*border: 1 px solid black;*/
+	background: lightyellow;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -7px;
+}
+.circle3 {
+    width: 300px;
+    height: 300px;
+    border: 2px solid darkslateblue;
+    border-radius: 50%;
+    position: relative;
+    top: -300px;
+    left: 100px;
+    animation: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.dots2 {
+	width: 15px;
+	height:15px;
+	/*border: 1 px solid black;*/
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -7px;
+}
+.circle4 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid darkslateblue;
+    border-radius: 50%;
+    position: relative;
+    top: -550px;
+    left: 150px;
+    animation: circle;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.dots3 {
+	width: 15px;
+	height:15px;
+	/*border: 1 px solid black;*/
+	background: green;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -7px;
+	background: white;
+}
+.circle5 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid darkslateblue;
+    border-radius: 50%;
+    position: relative;
+    top: -700px;
+    left: 200px;
+    animation: circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.dots4 {
+	width: 15px;
+	height:15px;
+	/*border: 1 px solid black;*/
+	background: green;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: -7px;
+	background: blue;
+}
+.circle6 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid darkslateblue;
+    border-radius: 50%;
+    position: relative;
+    top: -775px;
+    left: 225px;
+    background: #FFCC33;
+    /*animation: circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;*/
+}

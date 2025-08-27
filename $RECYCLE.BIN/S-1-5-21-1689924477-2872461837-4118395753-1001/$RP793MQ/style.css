@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    width: 1200px;
+    margin: auto;
+}
+.row1 {
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    margin-top: 25px;
+    font-size: 20px;
+}

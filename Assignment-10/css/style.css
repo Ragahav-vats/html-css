@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*text-decoration: none;*/
+
+}
+.building{
+	width: 900px;
+	height: 800px;
+	border: 3px solid pink;
+	margin: auto;
+	margin-top: 20px;
+	background-color: white;
+
+}
+body{
+	background: #470024;
+}
+.floor1{
+	width: 900px;
+	height: 200px;
+	box-sizing: content-box;
+	display: flex;
+}
+.row{
+	width: 450px;
+	height: 150px;
+	border: 2px solid blue;
+	margin: auto;
+	margin-top: 20px;
+	background-color: #001C34;
+	color: white;
+
+	}
+	.heading{
+		padding-left: 100px;
+		padding-top: 10px;
+	}
+	.paragraph{
+		padding-left: 25px;
+		
+	}
+	.words{
+		word-spacing: 80px;
+		padding-left: 30px;
+		line-height: 80px;
+	}
+	.heading2{
+		padding-left: 100px;
+	}
+	.box1{
+		width: 600px;
+		height: 80px;
+		border: 2px solid black;
+	}
+	.floor3{
+		width: 500px;
+		height: 150px;
+		border: 2px solid black;
+		box-sizing: border-box;
+		margin-left: 100px;
+		padding-left: 20px;
+		padding-top: 10px;
+		margin-top: 40px;
+		line-height: 20px;
+		text-decoration: none;
+	}
+	.row2 p{
+		padding-top: 10px;
+	}
+	.select{
+		width: 70px;
+		height: 30px;
+		border: 1px solid blue;
+		margin-top: 40px;
+		margin-left: 100px;
+		padding-left: 10px;
+		padding-top: 10px;
+		border-radius: 15px;
+		background-color: blue;
+	}
+
+	.select a{
+		color: white;
+	}
+
+	.floor2 p{
+		padding-top: 10px;
+	}
+
+	a{
+		text-decoration: none;
+	}
+	.million{
+		padding-left: 20px;
+		padding-top: 30px;
+	}
+	

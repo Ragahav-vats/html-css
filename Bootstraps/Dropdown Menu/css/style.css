@@ -1,0 +1,23 @@
+.logo{
+	width: 280px;
+}
+.stick{
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+}
+.navbar-nav li {
+  font-weight: bold;
+}
+.navbar-text{
+	font-weight: bold;
+}
+.dropdown-menu{
+	margin-top: 25px!important;
+}
+.menu-dropdown:hover .dropdown-menu{
+	display: block;
+}
+.card-img-top{
+	width: 100px!important;
+}
